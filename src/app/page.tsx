@@ -37,7 +37,7 @@ const Page = () => {
       </section>
 
       {showModal &&
-        <Modal image={imageofmodal} closeModal={closeModal} />  
+        <Modal image={imageofmodal} closeModal={close} />  
       }
     </div>
   );
